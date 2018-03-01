@@ -1,0 +1,9 @@
+<Label class="checkmark" (tap)="toggle()">
+    <FormattedString>
+        <Span class="fa"
+            [class.checked]="checked"
+            [text]="checkboxIcon"></Span>
+        <Span text=" "></Span>
+        <Span [text]="label"></Span>
+    </FormattedString>
+</Label>

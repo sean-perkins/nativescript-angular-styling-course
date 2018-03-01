@@ -1,0 +1,40 @@
+<ActionBar title="FlexBoxLayout" class="action-bar"></ActionBar>
+<StackLayout class="page">
+
+    <FlexBoxLayout justifyContent="space-between">
+        <Label backgroundColor="red" text="Item A"></Label>
+        <Label backgroundColor="green" text="Item B"></Label>
+        <Label backgroundColor="blue" text="Item C"></Label>
+    </FlexBoxLayout>
+
+    <Label margin="40"></Label>
+
+    <FlexBoxLayout justifyContent="space-around">
+        <Label backgroundColor="red" text="Item A"></Label>
+        <Label backgroundColor="green" text="Item B"></Label>
+        <Label backgroundColor="blue" text="Item C"></Label>
+    </FlexBoxLayout>
+
+    <Label margin="40"></Label>
+
+    <FlexBoxLayout justifyContent="space-between" flexDirection="row-reverse">
+        <Label backgroundColor="red" text="Item A"></Label>
+        <Label backgroundColor="green" text="Item B"></Label>
+        <Label backgroundColor="blue" text="Item C"></Label>
+    </FlexBoxLayout>
+
+    <Label margin="40"></Label>
+
+    <FlexBoxLayout flexWrap="wrap" alignContent="flex-end">
+        <Label backgroundColor="red" text="Item A"></Label>
+        <Label backgroundColor="green" text="Item B"></Label>
+        <Label backgroundColor="blue" text="Item C"></Label>
+        <Label backgroundColor="red" text="Item D" flexWrapBefore="true"></Label>
+        <Label backgroundColor="green" text="Item E"></Label>
+        <Label backgroundColor="blue" text="Item F"></Label>
+        <Label backgroundColor="red" text="Item G"></Label>
+        <Label backgroundColor="green" text="Item H"></Label>
+        <Label backgroundColor="blue" text="Item I"></Label>
+    </FlexBoxLayout>
+
+</StackLayout>

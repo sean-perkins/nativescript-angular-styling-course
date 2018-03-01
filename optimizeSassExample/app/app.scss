@@ -1,0 +1,13 @@
+.page {
+    .list-group {
+        height: 50%;
+    }
+}
+
+$gap: 10;
+
+@for $i from 0 through 10 {
+    .p-#{$i} {
+        padding: $gap * $i;
+    }
+}

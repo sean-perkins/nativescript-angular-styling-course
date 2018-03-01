@@ -1,0 +1,13 @@
+
+.bottom-bar {
+    background-color: black;
+}
+
+.bottom-bar Button {
+    color: white;
+    text-transform: uppercase;
+}
+
+.bottom-bar Button.active {
+    color: blue;
+}

@@ -1,0 +1,41 @@
+<GridLayout>
+    <ScrollView>
+        <StackLayout *ngIf="renderView">
+            <StackLayout>
+                <StackLayout>
+                    <StackLayout>
+                        <StackLayout>
+                            <StackLayout>
+                                <StackLayout>
+                                    <StackLayout>
+                                        <StackLayout>
+                                            <StackLayout>
+                                                <StackLayout>
+                                                    <StackLayout>
+                                                        <StackLayout>
+                                                            <StackLayout>
+                                                                <StackLayout>
+                                                                    <Label *ngFor="let i of totalCount" text="Page 2"></Label>
+                                                                </StackLayout>
+                                                            </StackLayout>
+                                                        </StackLayout>
+                                                    </StackLayout>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+    <ActivityIndicator row="0"
+        verticalAlignment="center"
+        horizontalAlignment="center"
+        busy="true"
+        [visibility]="renderView ? 'collapse' : 'visible'">
+    </ActivityIndicator>
+</GridLayout>

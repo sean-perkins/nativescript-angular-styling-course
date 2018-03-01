@@ -1,0 +1,11 @@
+
+.fab {
+    color: white;
+    font-size: 18;
+    background-color: blue;
+    border-radius: 50%;
+    width: 48;
+    height: 48;
+    margin-right: 20;
+    margin-bottom: 20;
+}
